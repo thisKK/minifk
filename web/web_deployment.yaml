@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-    labels:
+  labels:
     app: web
   name: web
 spec:
@@ -9,12 +9,14 @@ spec:
   selector:
     matchLabels:
       app: web
-   template:
+  
+  template:
     metadata:
-        labels:
+      
+      labels:
         app: web
     spec:
       containers:
       - image: nginx
         name: nginx
-       
+        
