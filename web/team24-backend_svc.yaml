@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: team24-backend
+  name: team24-backend
+  namespace: default
+spec:
+  loadBalancerIP: 172.17.0.202
+  ports:
+  - nodePort: 30904
+    port: 9000
+    protocol: TCP
+    targetPort: 9000
+  selector:
+    app: team24-backend
+  sessionAffinity: None
+  type: LoadBalancer
