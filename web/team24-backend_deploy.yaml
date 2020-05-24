@@ -6,7 +6,7 @@ metadata:
   name: team24-backend
   namespace: default
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: team24-backend
