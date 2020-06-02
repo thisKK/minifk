@@ -112,6 +112,7 @@ items:
           - --ssh-keygen-dir=/var/fluxd/keygen
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           - --git-url=https://github.com/chanwit/minifk
 =======
           - --git-url=https://github.com/thisKK/minifk.git
@@ -120,6 +121,10 @@ items:
           - --git-url=https://github.com/thisKK/minifk.git
 >>>>>>> add shpod
           - --git-branch=master
+=======
+          - --git-url=https://github.com/chanwit/minifk
+          - --git-branch=v1.15.9
+>>>>>>> upstream/v1.15.9
           - --git-poll-interval=30s
           - --git-path=.
           - --git-readonly
