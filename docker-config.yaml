@@ -14,16 +14,6 @@ data:
         "native.cgroupdriver=cgroupfs"
       ],
       "insecure-registries" : [
-<<<<<<< HEAD
-<<<<<<< HEAD
         "172.17.0.222:5000"
       ]
-=======
-	"172.17.0.222:5000"
-      ]	
->>>>>>> Edit docker-config
-=======
-        "172.17.0.222:5000"
-      ]
->>>>>>> fix error
     }
