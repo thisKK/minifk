@@ -722,7 +722,7 @@ metadata:
   labels:
     serving.knative.dev/release: "v0.14.0"
 data:
-  ingress.class:"kourier.ingress.networking.knative.dev"
+  ingress.class: "kourier.ingress.networking.knative.dev"
   _example: |
     ################################
     #                              #
