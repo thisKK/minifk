@@ -1,0 +1,19 @@
+version: "2"
+
+services:
+  front:
+    build: ./front
+    ports:
+      - 8080:8080
+  source:
+    build: ./source
+    ports:
+      - 8080:8080
+  suber:
+    build: ./suber
+    ports:
+      - 8080:8080
+  adder:
+    build: ./adder
+    ports:
+      - 8080:8080
